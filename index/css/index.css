@@ -25,6 +25,9 @@
     --borders:#7d4397;
     
 }
+*{
+    box-sizing: border-box;
+}
 html{
     width: 100%;
     height: 100%;
@@ -139,7 +142,7 @@ body{
 }
 .vitrine{
     display: inline-flex;
-    height: 215px;
+    height: 240px;
     border: solid 1px;
     border-color: var(--green);
     border-radius: 30px;
