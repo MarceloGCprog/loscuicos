@@ -1,0 +1,211 @@
+
+  @font-face{
+    font-family: 'Caveat-regular';
+    src: url("fonts/Caveat-Regular.ttf") format("truetype");      
+  }
+  @font-face{
+    font-family: 'Caveat-medium';
+    src: url("fonts/Caveat-Medium.ttf") format("truetype");      
+  }
+  @font-face{
+    font-family: 'Caveat-semi';
+    src: url("fonts/Caveat-SemiBold.ttf") format("truetype");      
+  }
+
+  @font-face{
+    font-family: 'Caveat-bold';
+    src: url("fonts/Caveat-Bold.ttf") format("truetype");      
+  }
+:root{
+    --green:#89d8dd;
+    --gold: #d8dd89;
+    --pink: #E3BFF4;
+    --oposit: #dd8e89;
+    --shadow: #528184;
+    --borders:#7d4397;
+    
+}
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* FONTES:
+https://www.dafont.com/peachy-mochi.font?text=Los+Cuicos
+https://www.dafont.com/huggie-bunny.font?text=Los+Cuicos
+https://fonts.google.com/specimen/Caveat?preview.text=Los%20Quicos&preview.text_type=custom */
+
+body{
+    margin: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Caveat-regular,sans-serif;    
+
+}
+
+
+/************* HEADER ***********/
+
+
+.header-prop{
+        
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    background-color: white;
+    
+    
+}
+
+
+.logo-prop{
+    text-align: center;
+    display: inline-flex;   
+       
+   
+}
+
+#logo{
+    height: 100px;
+    float: center;
+    margin-left: 10px;
+}
+
+.titulo-text{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    left: 44%;
+}
+
+#titulo{
+    margin: 0px;
+    padding: 0px;
+    font-family: Caveat-bold;
+    font-size: 45px;
+    color: var(--green);
+}
+
+#subtitulo{
+    margin: 0px;
+    padding: 0px;
+    color: var(--gold)
+}
+
+.nav-prop{
+           
+    
+    display: inline-flex;
+    justify-content: center;     
+    border: solid 3px;      
+    border-radius: 15px;
+    border-color: var(--borders);
+    background: var(--borders);
+    
+}
+
+
+.botao-header{
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Caveat-bold;
+    color: white;
+}
+.botao-header:hover{
+    cursor:pointer;
+    color: var(--gold);
+}
+
+/************* Main ***********/
+#main{
+    font-family: Caveat-bold ;
+    margin: 15px 0px;
+    display: block;
+    justify-content: space-around;
+
+        
+}
+.departamento{
+    display: block;
+}
+
+.nome-vitrine{
+    font-size: 40px;
+    background: transparent;
+    margin-top: 20px;
+}
+.vitrine{
+    display: inline-flex;
+    height: 215px;
+    border: solid 1px;
+    border-color: var(--green);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+
+.poster{
+    width: 200px;
+    height: 215px;
+    display: block;
+    font-family: Caveat-semi;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.poster{
+    background:  var(--green);
+    margin: 0px 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px var(--shadow);
+    color: white;    
+}
+
+.poster:hover{
+    cursor:pointer;
+    color: var(--gold);
+       
+}
+
+.poster-img {
+    height: 150px; 
+    width: 200px;
+}
+.poster-img img{
+    /*width: 100%;*/
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 150px; 
+    width: 200px;
+     
+}
+
+.poster-descrip{
+    color: white;
+    font-size: 25px;
+    width: 200px;
+    height: 30px;
+    line-height: 1;
+    
+}
+
+.poster-cart{
+    background-color: var(--borders);
+    font-size: 25px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 200px;
+    height: 35px;
+}
+
+.footer{
+    height: 50px;
+    background-color: red;
+    text-align: left;
+    
+    
+}
